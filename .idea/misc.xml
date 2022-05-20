@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.23489583333333333" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2885" />
+        <entry key="app/src/main/res/drawable/button_default.xml" value="0.2885" />
+        <entry key="app/src/main/res/drawable/button_white.xml" value="0.2885" />
+        <entry key="app/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.2155" />
+        <entry key="app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.2155" />
+        <entry key="app/src/main/res/drawable/ic_baseline_branding_watermark_24.xml" value="0.2155" />
+        <entry key="app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.2155" />
+        <entry key="app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.2155" />
+        <entry key="app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2155" />
+        <entry key="app/src/main/res/drawable/ic_launche_background.xml" value="0.2155" />
+        <entry key="app/src/main/res/drawable/ic_launche_foreground.xml" value="0.2155" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2885" />
+        <entry key="app/src/main/res/figma-export-images/drawable/ic_baseline_person_24.xml" value="0.289" />
+        <entry key="app/src/main/res/figma-export-images/drawable/ic_launcher_foreground.xml" value="0.2495" />
+        <entry key="app/src/main/res/figma-export-images/drawable/ic_role.xml" value="0.2495" />
+        <entry key="app/src/main/res/layout/activity_add_workouts.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_client_main.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_client_page.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/activity_client_view_exercises_from_workout.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_client_workouts.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_create_program.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/activity_create_workout.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/activity_current_program.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_enter.xml" value="0.23629150390625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_my_clients.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_my_programs.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_select_exercises.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_trainer.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_trainer_main.xml" value="0.189209726443769" />
+        <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/authorization_fragment.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/dropdown_role_menu.xml" value="0.6368408203125" />
+        <entry key="app/src/main/res/layout/enter_fragment.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/fragment_authorization.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/fragment_client_registration.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/fragment_enter.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/fragment_registration.xml" value="0.28185328185328185" />
+        <entry key="app/src/main/res/layout/fragment_trainer_registration.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/recyclerciew_clients.xml" value="0.41731414794921873" />
+        <entry key="app/src/main/res/layout/recyclerview_exercises.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/recyclerview_programs.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/recyclerview_workouts.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/registration_fragment.xml" value="0.363116455078125" />
+        <entry key="app/src/main/res/layout/registration_layout.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/welcome.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/window_add_client.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/window_create_exercise.xml" value="0.28804347826086957" />
+        <entry key="app/src/main/res/layout/window_create_feedback.xml" value="0.3047897338867187" />
+        <entry key="app/src/main/res/layout/window_exercise_description.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/window_select_exercise.xml" value="0.28804347826086957" />
+        <entry key="app/src/main/res/xml/network_security_config.xml" value="0.3890625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

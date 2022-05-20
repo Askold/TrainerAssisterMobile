@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    app:cardBackgroundColor="@color/inputs"
+    android:outlineSpotShadowColor="@color/inputs"
+    android:outlineAmbientShadowColor="@color/inputs"
+    app:cardCornerRadius="20dp"
+    android:layout_marginHorizontal="23dp"
+    android:layout_marginVertical="7dp"
+    >
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/vWorkoutName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:text="Название тренировки"
+                android:textStyle="bold"
+                android:textColor="@color/default_blue"
+                android:textSize="25sp"
+                />
+
+
+
+</androidx.cardview.widget.CardView>

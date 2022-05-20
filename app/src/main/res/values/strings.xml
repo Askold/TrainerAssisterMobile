@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TrainerAssister</string>
+    <string name="label">Trainer Assister</string>
+    <string name="registration">Регистрация</string>
+    <string name="authorisation">Авторизация</string>
+    <string name="create_your_account">Создайте свой аккаунт</string>
+
+    <string-array name="userRoles">
+        <item>Тренер</item>
+        <item>Клиент</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

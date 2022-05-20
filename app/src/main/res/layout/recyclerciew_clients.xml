@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    app:cardBackgroundColor="@color/inputs"
+    android:outlineSpotShadowColor="@color/inputs"
+    android:outlineAmbientShadowColor="@color/inputs"
+    app:cardCornerRadius="20dp"
+    android:layout_marginHorizontal="23dp"
+    android:layout_marginVertical="7dp"
+    >
+
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/profile"
+            android:text="Ваш профиль"
+            android:textColor="@color/default_blue"
+            android:textSize="15sp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/vClientName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="Имя Фамилия"
+                android:textStyle="bold"
+                android:textColor="@color/default_blue"
+                android:textSize="25sp"
+                />
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/vClientLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="логин"
+                android:textColor="@color/default_blue"
+                android:textSize="15sp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/vClientAge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Рост"
+                    android:textColor="@color/default_blue"
+                    android:textSize="15sp"
+                    />
+
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/vClientWeight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="20dp"
+                    android:text="Вес"
+                    android:textColor="@color/default_blue"
+                    android:textSize="15sp"
+                    />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/vClientHeight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="20dp"
+                    android:text="Возрас"
+                    android:textColor="@color/default_blue"
+                    android:textSize="15sp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

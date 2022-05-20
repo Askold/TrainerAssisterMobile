@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/welcome_screen"
+
+    >
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label"
+        android:textColor="@color/white"
+        android:id="@+id/trainerAssister"
+        android:textSize="45sp"
+        android:layout_marginTop="94dp"
+        android:layout_marginStart="25dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/trainerAssister"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="50dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSignUp"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/registration"
+            android:textColor="@color/default_blue"
+            android:backgroundTint="@color/white"
+            android:textSize="25sp"
+            app:strokeColor="@color/teal_700"
+            app:rippleColor="@color/default_blue_ripple"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSignIn"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/authorisation"
+            android:textColor="#014E95"
+            android:backgroundTint="@color/white"
+            android:textSize="25sp"
+            app:strokeColor="@color/teal_700"
+            app:rippleColor="@color/default_blue_ripple"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
